@@ -27,5 +27,5 @@ test('checked sorting list', () => {
     { name: 'маг', health: 1 },
   ];
 
-  expect(result).not.toBe(expected);
+  expect(result).toEqual(expected);
 });
